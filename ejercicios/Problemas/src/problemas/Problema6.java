@@ -10,7 +10,8 @@ public class Problema6 {
         media = obtenerMedia(informacion);
         desviacion = obtenerDesviacion(informacion, media);
         
-        System.out.printf("L", args)
+        System.out.printf("La media es: %.2f\nLa desviación es: %.2f\n", 
+                media, desviacion);
     }
     
     public static double obtenerMedia(int [] arreglo){
